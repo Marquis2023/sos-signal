@@ -8,5 +8,5 @@ input.onButtonPressed(Button.B, function () {
     basic.showString("SOS")
 })
 input.onGesture(Gesture.Shake, function () {
-	
+    basic.showString("Hello!")
 })
